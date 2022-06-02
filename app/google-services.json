@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "604449744343",
+    "project_id": "zeet-video",
+    "storage_bucket": "zeet-video.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604449744343:android:49585fcd0ec68bd2eb9792",
+        "android_client_info": {
+          "package_name": "com.example.zeetvideo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604449744343-u8joftdi04stbm9062lsvr603e0rs0fs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP6usuaXAKnxnbHJT9wNmanb0fK9EL19o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604449744343-u8joftdi04stbm9062lsvr603e0rs0fs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

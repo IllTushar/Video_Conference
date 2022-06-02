@@ -1,0 +1,23 @@
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.2.0'
+        classpath 'com.google.gms:google-services:4.3.10' // [Calls] FCM
+    }
+}
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
+        }
+    }
+}
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
